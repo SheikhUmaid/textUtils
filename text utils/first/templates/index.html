@@ -1,0 +1,28 @@
+
+{% extends "base.html" %}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <form action="/result" method="GET">
+    <h1>Text Utilities</h1>
+    <textarea name="text" id="" cols="30" rows="10"></textarea><br>
+    <input type="checkbox" name="RemoveSpaces" id="">
+    <p>Remove Spaces</p><br>
+    <input type="checkbox" name="RemovePunctuations" id="">
+    <p>Remove Punctuations</p><br>
+    <input type="checkbox" name="Capitalize" id="">
+    <p>CAPTILIZE ALL LETTERS</p><br>
+    <input type="checkbox" name="CountCharacters" id="">
+    <p>Count Characters</p><br>
+    <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+{% endblock %}
