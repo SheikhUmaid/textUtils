@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
+I have done something in it, I am the best in the world
 """
 
 from pathlib import Path
